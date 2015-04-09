@@ -59,7 +59,7 @@ data: 用来返回输入错误的具体原因，我们使用参数名作为key,�
 
 
 ### 统一错误码
-* 接口采用http服务，返回状态码200，utf8,json格式
+* 接口采用http服务，返回状态码借助http code，返回包体格式utf8,json格式
 * 如果返回结果均使用Jsend格式的json
 * error code list待完善...
 
